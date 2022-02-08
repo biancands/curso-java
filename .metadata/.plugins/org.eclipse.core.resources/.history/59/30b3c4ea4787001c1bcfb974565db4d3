@@ -1,0 +1,12 @@
+
+public class NovoCliente {
+	
+	public static void main(String[] args) {
+		
+		Conta contaDaBia = new Conta();
+		
+		contaDaBia.deposita(2500);
+		System.out.println(contaDaBia.getSaldo());
+	}
+
+}

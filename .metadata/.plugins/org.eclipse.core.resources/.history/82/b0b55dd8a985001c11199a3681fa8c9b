@@ -1,0 +1,22 @@
+
+public class TesteIR {
+	
+	public static void main(String[] args) {
+		
+		double salario = 3300.0;
+		double IR;
+		if (salario >= 1900.0 || salario <= 2800.0) {
+			 IR = 7.5;
+			System.out.println("O valor do Imposto de Renda é "+IR+"e o salário fica R$142");
+		} else if (salario > 2800.0 || salario <= 3751.0) {
+			 IR = 15.0;
+			System.out.println("O valor de Imposto de Renda é "+IR+"e o salário fica R$350");
+		} else (salario>3751.0 || salario =< 4664.0){
+			 IR = 15;
+			 System.out.println("O imposto de renda é "+IR+"o novo salário fica R$636");
+			
+		}
+		
+	}
+
+}
