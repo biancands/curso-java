@@ -5,4 +5,9 @@
     <fullyQualifiedTypeName name="ContaPoupanca"/>
     <fullyQualifiedTypeName name="Funcionario"/>
     <fullyQualifiedTypeName name="EditorVideo"/>
+    <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="Autenticavel"/>
+    <fullyQualifiedTypeName name="SistemaInterno"/>
+    <fullyQualifiedTypeName name="DataNascimento"/>
+    <fullyQualifiedTypeName name="dataDeNascimento.DataDeNascimento"/>
 </qualifiedTypeNameHistroy>
