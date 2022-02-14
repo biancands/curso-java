@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="SistemaInterno"/>
     <fullyQualifiedTypeName name="DataNascimento"/>
     <fullyQualifiedTypeName name="dataDeNascimento.DataDeNascimento"/>
+    <fullyQualifiedTypeName name="Tributavel"/>
 </qualifiedTypeNameHistroy>
