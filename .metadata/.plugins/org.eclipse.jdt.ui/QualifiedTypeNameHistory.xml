@@ -11,4 +11,11 @@
     <fullyQualifiedTypeName name="DataNascimento"/>
     <fullyQualifiedTypeName name="dataDeNascimento.DataDeNascimento"/>
     <fullyQualifiedTypeName name="Tributavel"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="MinhaExcecao"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
 </qualifiedTypeNameHistroy>
