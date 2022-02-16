@@ -15,5 +15,15 @@ public class Administrativo extends Assistente {
 		return 0.10*super.getBonificacao();
 	}
 	
+	public double setTurno(String turno) {
+		
+		if(turno == "noite") {
+			return 50+this.getSalario();
+		} else {
+			return 0;
+		}
+		
+	}
+	
 	
 }
