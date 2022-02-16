@@ -4,7 +4,6 @@ public abstract class Animal {
 	
 	private String nome;
 	private String raca;
-	private String caminha;
 	
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -22,13 +21,8 @@ public abstract class Animal {
 		return raca;
 	}
 	
-	public void setCaminha(String caminha) {
-		this.caminha = caminha;
-	}
+	public void caminha(String caminha) {}
 	
-	public String getCaminha() {
-		return caminha;
-	}
 	
 
 }
