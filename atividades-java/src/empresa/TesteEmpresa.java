@@ -1,5 +1,7 @@
 package empresa;
 
+import java.util.Scanner;
+
 public class TesteEmpresa {
 	
 	public static void main(String[] args) {
@@ -7,6 +9,14 @@ public class TesteEmpresa {
 		Gerente gustavo = new Gerente ();
 		gustavo.setSalario(6000);
 		System.out.println(gustavo.getSalario());
+		
+		Scanner sc1 = new Scanner (System.in);
+		System.out.println("Digite o valor do salário: ");
+		String dadoEntrada = sc1.nextLine();
+		double aDouble = Double.parseDouble(dadoEntrada);
+		gustavo.setSalario(aDouble);
+		
+		System.out.println(dadoEntrada);
 		
 		Administrativo priscila = new Administrativo();
 		priscila.setSalario(1200);

@@ -4,8 +4,18 @@ public class Cachorro extends Animal {
 	
 	private String late;
 	
-	public Cachorro () {
-		System.out.println("au au au");
+	
+	public Cachorro(String nome, String raca) {
+		super(nome, raca);
+		System.out.println("O seu cachorro é o(a) " +nome+" de raça "+raca);
+	}
+	
+	public void setLate(String late) {
+		this.late = late;
+	}
+	
+	public String getLate() {
+		return late;
 	}
 
 }
