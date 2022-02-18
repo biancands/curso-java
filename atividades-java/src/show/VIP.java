@@ -9,7 +9,7 @@ public class VIP extends Ingresso{
 	@Override
 	public double getValorDoIngresso() {
 		// TODO Auto-generated method stub
-		return 500 + super.getValorDoIngresso();
+		return 500 + this.getValorDoIngresso();
 	}
 
 }
