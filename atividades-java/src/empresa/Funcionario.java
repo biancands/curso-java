@@ -30,5 +30,9 @@ public abstract class Funcionario {
 		return salario;
 	}
 	
+	public double getComissao() {
+		return salario;
+	}
+	
 
 }

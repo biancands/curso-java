@@ -9,5 +9,11 @@ public class Gerente extends Funcionario {
 		}
 		super.setSalario(salario);
 	}
+	
+	@Override
+	public double getComissao() {
+		// TODO Auto-generated method stub
+		return 1500+super.getComissao();
+	}
 
 }
